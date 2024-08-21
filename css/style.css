@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+ body{
+    background-color: white;}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a img{
+    border: none;
+    outline: none;
+}
+
+a:focus img {
+    border: none;
+    outline: none;
+}
+
+/* navbar starts */
+
+img{
+    cursor: pointer;
+}
+
+
+.d-flex{
+    display: flex;
+    align-self: center;
+}
+
+
+nav{
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0,0,5);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+
+.nav-left .menu-icon{
+    /* border: 2px solid green; */
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+.nav-left .menu-icon:hover{
+    /* border: 2px solid red; */
+    background-color: #f8f8f8;
+}
+
+.ytube {
+    /* border: 2px solid red; */
+    width: 115px;
+    margin-top: 8px;
+    margin-left: 1rem;
+}
+
+
+
+.nav-middle{
+    /* border: 2px solid red; */
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+
+.mic-div{
+    /* border: 2px solid red; */
+    background-color: rgb(248,248,248);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    
+}
+
+
+.mic-icon{
+    /* border: 2px solid green; */
+    width: 50px;
+    padding: 11px;
+}
+
+
+.searchbox{
+    width: 90%;
+    border: 1px solid #626262;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.searchbox input{
+    width: 90%;
+    border: none;
+    padding: .4rem;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding-left: 1rem;
+}
+
+
+.search-div{
+    background-color: #f2f2f2;
+    width: 15%;
+    border-radius: 0px 50px 50px 0px;
+    justify-content: space-around;
+
+}
+
+
+.searchbox img{
+    width: 45px;
+    padding: 12px;
+    /* border: 2px solid greenyellow; */
+    /* border-radius: 50px; */
+}
+
+.nav-right img{
+    width: 40px;
+    margin-right: 25px;
+}
+
+.nav-right .userimg{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 25px;
+}
+
+/* navbar end*/
+
+
+/* sidebar starts */
+
+.sidebar{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    padding-top: 80px;
+    overflow: auto;
+    scrollbar-color: transparent transparent;
+    scroll-behavior: smooth;
+}
+
+/* js part code */
+.smaller-sidebar{
+    width: 6%;
+    overflow:scroll;
+
+}
+
+
+.smaller-sidebar a p{
+    display: none;
+}
+
+/*js code ends*/
+
+
+.sidebar-upper a img{
+    width: 40px;
+    margin: 10px 20px 15px 20px;
+    padding: 3px;
+    /* border: 2px solid green; */
+
+}
+
+/* .sidebar-upper{
+    border: 2px solid green;
+} */
+
+
+.sidebar-upper a{
+    /* border: 2px solid fuchsia; */
+    margin-bottom: 2px;
+}
+
+.sidebar-upper p{
+    /* border: 2px solid red; */
+    margin: 22px 0px 20px 5px;
+}
+
+
+.sidebar-upper a:first-child{
+    /* border: 2px solid red; */
+    background-color: RGB(242, 242, 242);
+    border-radius: 10px;
+}
+
+.sidebar-upper a:hover{
+
+    background-color: RGB(242, 242, 242);
+    border-radius: 10px;
+}
+
+
+/* sidebar end  */
+
+/* maincontainer starts */
+
+/* .maincontainer{
+    border: 2px solid red;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    padding-right: 30%;
+}
+
+.card{
+    border: 2px solid green;
+    width: 260px;
+    margin-right: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thumbnailcontainer{
+    border: 2px solid yellow;
+    width: 78%;
+    height: 5rem;
+}
+
+.thumbnailimg{
+    border: 2px solid greenyellow;
+    width: 100%;
+}
+
+.logocontainer .userlogo{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.detailcontainer{
+    border: 2px solid greenyellow;
+    width: 90%;
+    height: 80%;
+}
+
+.logocontainer{
+    border: 2px solid royalblue;
+    width: 10rem;
+    height: 5rem;
+}
+
+.details{
+    border:2px solid purple;
+    width: 95%;
+    height: 95%;
+} */
+
+
+.maincontainer{
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* js part code*/
+
+.larger-maincontainer{
+    margin-left: 7%;
+    /* border: 2px solid red; */
+}
+
+/* js code ends */
+
+.card {
+    /* border: 2px solid green; */
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* js code starts */
+
+.larger-card{
+    width: 330px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.thumbnailimg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logocontainer .logoimg{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.details h2{
+    font-size: 1.0rem;
+    margin-top: 10px;
+}
+
+/* Video.html part starts */
+
+.video-container{
+    /* border: 2px solid red; */
+    padding-left: 3rem;
+}
+
+.content{
+    /* border: 2px solid rgb(25, 0, 255); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+
+.video-container .content-left .video{
+    width: 100%
+
+}
+
+.video-container .content-left{
+    /* border: 2px solid rgb(225, 255, 0); */
+    flex-basis: 67%;
+
+}
+
+.video-container .content-right{
+    /* border: 2px solid rgb(0, 255, 0); */
+    flex-basis: 31%;
+
+}
+
+.video-list{
+    /* border: 2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.video-list img{
+    width: 200px;
+    border-radius: 10%;
+}
+
+.video-list .video-info{
+    margin-left: 1rem;
+}
+
+.below-video-container h1{
+    font-size: 1.7rem;
+    /* border: 2px solid red; */
+}
+
+.other-details{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.other-details-left{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+.other-details-right{
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    width: 21%;
+}
+
+.other-details-right img{
+    width: 40px;
+    padding: 8px;
+    /* border: 2px solid green; */
+}
+
+.channelNameAndIcon, .joinAndSubsBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channelNameAndIcon img{
+    margin-right: 1rem;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.NameAndSubScribes p:first-child{
+    font-weight: bolder;
+}
+
+.joinAndSubsBtnContainer button{
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.joinBtn{
+    background-color: #f2f2f2;
+    /* border: 2px solid green; */
+    padding: .5rem 1rem;
+    margin-right: 1rem;
+}
+
+.subBtn{
+    background-color: #f2f2f2;   /* border: 2px solid green; */
+    padding: .5rem 1rem;
+    font-weight: bold;
+}
+
+.descriptionContainer{
+    /* border: 2px solid red; */
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.descriptionContainer p{
+    font-size: .9rem;
+    font-weight: lighter;
+}
+
+.commentSection{
+    margin-top: 1rem;
+}
+
+.commentSection h1{
+    font-size: 1.4rem;
+}
+
+.writeCommentContainer{
+    /* border: 2px solid red; */
+   margin: 1rem 0px 10px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.writeCommentContainer input{
+    width: 100%;
+    padding: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 0.8px solid #f2f2f2;
+    font-size: 1rem;
+}
+
+.writeCommentContainer img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.userimg{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.previousComments{
+    margin-top: 2rem;
+}
+
+.nameAndComment{
+    margin-left: 1rem;
+}
+
+.nameAndComment .ChannelName{
+    font-size: .9rem;
+    margin-bottom: .7rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .sidebar a p{
+        display: none;
+    }
+
+    .NotificationImg, .ytube, .mic-div, .uploadImg, .search-div{
+        display: none;
+    }
+
+    .card{
+        width: 350px;
+    }
+    .video-container{
+        padding-left: .5rem;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .other-details-right{
+        width: 40%;
+    }
+
+    .other-details-left{
+        width: 75%;
+        margin-right: 1rem;
+    }
+
+     .video-container{
+        padding-right: 1rem;
+     }
+
+    
+}
+
+
+
